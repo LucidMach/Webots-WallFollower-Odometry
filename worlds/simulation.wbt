@@ -1,0 +1,74 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  title "DP3"
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 0.08797408961471623 0.9189380247902506 0.38446516896990124 3.556100408391752
+  position -14.236112089553101 24.90540529498682 -22.66202103285292
+}
+Cabinet {
+  translation 2.63 0 6.82
+  rotation 0 1 0 -1.5707953071795862
+}
+Carpet {
+  translation 0 0 2.28
+  color 0 0.333333 0
+}
+TexturedBackground {
+  luminosity 3
+}
+RectangleArena {
+  floorSize 15 15
+}
+PortraitPainting {
+  translation -1.95301e-05 1.305 7.36
+  rotation 0 1 0 3.14159
+}
+Wall {
+  translation 7.5 0 -0.0299944
+  rotation 0 1 0 1.5707996938995747
+  name "wall(3)"
+  size 15 2.4 0.2
+}
+Wall {
+  translation -7.51002 0 -0.0299749
+  rotation 0 1 0 1.5707996938995747
+  name "wall(2)"
+  size 15 2.4 0.2
+}
+Wall {
+  translation 0 0 7.5
+  name "wall(1)"
+  size 15 2.4 0.2
+}
+Wall {
+  translation 0 0 -7.5
+  size 15 2.4 0.2
+}
+FloorLight {
+  translation 6.42 0 6.3
+}
+Bed {
+  translation 4.59839e-06 0 4.51
+  rotation 0 1 0 -1.5707953071795862
+}
+Wall {
+  translation 2.9 0 4.04
+  rotation 0 1 0 -1.5707953071795862
+  name "wall(4)"
+  size 7 2.4 0.2
+}
+Sofa {
+  translation 4.9 0 -5.82
+  rotation 0 1 0 -1.5707953071795862
+  color 1 1 0
+}
+Fridge {
+  translation -2.80379e-06 0 -6.79
+  rotation 0 1 0 -1.5707953071795862
+  mainColor 0.666667 0 0
+}
+Desk {
+  translation 4.71 0 -3.79
+}
