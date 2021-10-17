@@ -1,0 +1,21 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 0.9999814486621205 -0.005795414463644922 -0.001874967413469319 5.657378113888136
+  position 0.18861083513776336 2.089935997910255 3.130823693128325
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 2 2
+}
+E-puck {
+  translation 0 0 0.46
+  controller "wall_follower"
+}
+WorldMaze {
+}
