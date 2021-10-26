@@ -73,8 +73,7 @@ def run_robot(robot):
         bot_pos[0] += vx * dt
         array_loc[0] = round(bot_pos[0]/array_size) + 1
 
-        print(f"x_arr: {array_loc[1]} y_arr: {array_loc[0]}")
-        # print(bot_pos[0]//array_size)
+        # print(f"x_arr: {array_loc[1]} y_arr: {array_loc[0]}")
         print(f"x: {bot_pos[1]} y: {bot_pos[0]} angle:{bot_pos[2]*180/3.14}")
 
         # Wall Following
@@ -119,7 +118,7 @@ def run_robot(robot):
 
         print(
             f"right: {ultraSense[0].getValue()}, left: {ultraSense[1].getValue()}, front: {ultraSense[2].getValue()}")
-        print(wallmap)
+        # print(wallmap)
         pass
 
 
