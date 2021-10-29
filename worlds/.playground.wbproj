@@ -8,3 +8,8 @@ orthographicViewHeight: 1
 textFiles: -1
 globalOptionalRendering: DistanceSensorRays
 consoles: Console:All:All
+renderingDevicePerspectives: Spot:left flank camera;0;0.65;0;0
+renderingDevicePerspectives: Spot:left head camera;0;0.65;0;0
+renderingDevicePerspectives: Spot:rear camera;0;0.65;0;0
+renderingDevicePerspectives: Spot:right flank camera;0;0.65;0;0
+renderingDevicePerspectives: Spot:right head camera;0;0.65;0;0
